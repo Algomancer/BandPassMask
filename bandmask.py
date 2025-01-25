@@ -1,5 +1,6 @@
 import torch
 
+# This can be batched, left over from some variable size masking code.
 def generate_bandmasks(
     positions: torch.Tensor,
     num_context_patches: int,
